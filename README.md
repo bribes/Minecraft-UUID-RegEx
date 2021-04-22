@@ -1,4 +1,4 @@
-# UUID Validator
+# Minecraft UUID RegEx
 
 ## RegEx:
 
