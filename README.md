@@ -1,6 +1,6 @@
 # UUID Validator
 
-## RegEx
+## RegEx:
 
 ### UUID with dashes
 
