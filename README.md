@@ -13,3 +13,13 @@ if you are using this as a pattern remove the slashes
 ### RegEx for UUID without dashes
 
 #### ```/^[A-F\d]{8}[A-F\d]{4}4[A-F\d]{3}[89AB][A-F\d]{3}[A-F\d]{12}$/i```
+
+# Usage
+
+```javascript 
+if (/([0-9a-f]{8})(?:-|)([0-9a-f]{4})(?:-|)(4[0-9a-f]{3})(?:-|)([89ab][0-9a-f]{3})(?:-|)([0-9a-f]{12})/.test('UUID_Here') === true) {
+console.log('This is a valid UUID.');
+} else {
+console.log('This UUID is invalid.');
+}
+```
