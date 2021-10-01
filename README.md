@@ -18,8 +18,8 @@ if you are using this as a pattern remove the slashes
 
 ```javascript 
 if (/([0-9a-f]{8})(?:-|)([0-9a-f]{4})(?:-|)(4[0-9a-f]{3})(?:-|)([89ab][0-9a-f]{3})(?:-|)([0-9a-f]{12})/.test('UUID_Here') === true) {
-console.log('This is a valid UUID.');
+  console.log('This is a valid UUID.');
 } else {
-console.log('This UUID is invalid.');
+  console.log('This UUID is invalid.');
 }
 ```
