@@ -1,6 +1,6 @@
 # Minecraft UUID RegEx
 
-### RegEx for both dashless and dashed UUID provided by drainer / lucky swede
+### RegEx for both dashless and dashed UUIDs provided by drainer / swede
 
 #### ```/([0-9a-f]{8})(?:-|)([0-9a-f]{4})(?:-|)(4[0-9a-f]{3})(?:-|)([89ab][0-9a-f]{3})(?:-|)([0-9a-f]{12})/``` 
 
